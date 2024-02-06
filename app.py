@@ -7,9 +7,9 @@ app = Flask(__name__, template_folder='./templates', static_folder='./static')
 app.secret_key = "cairocoders-ednalan"
 
 DB_HOST = "localhost"
-DB_NAME = "EDP"
-DB_USER = "postgres"
-DB_PASS = "Lowkik0909$ai"
+DB_NAME = "databasename"
+DB_USER = "username"
+DB_PASS = "password"
 
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 
